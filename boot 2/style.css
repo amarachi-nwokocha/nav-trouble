@@ -1,0 +1,123 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+body{
+    font-family: "MillerDisplay, Light , sans-serif";
+    background-color: #000000;
+    color: white;
+}
+.nav-brang img{
+    width: 15px !important;
+    height: 20px !important;
+}
+.navb{
+    background-color: black !important;
+    display: flex;
+    
+}
+nav{
+    font-family: "Maison Neue, sans-serif";
+    border-bottom: 1px solid #565656 ;
+    height: auto;
+    background-color: black !important;
+}
+nav li:hover{
+    border-bottom: 1px solid white;
+}
+/*****
+.white{
+    color: white;
+}
+h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    
+}
+@media only screen and (max-width: 598px) {
+    /* For mobile phones: **/
+    h1{
+     font-size: 3rem;
+
+    }
+  }
+.text{
+    font-size: 2rem;
+    margin-left: 2rem ;
+    font-weight: lighter;
+}
+
+span{
+    color: yellow;
+}
+span:hover{
+    border-bottom:1px solid yellow;
+}
+iframe{
+    border: 1px solid #565656;
+    padding: 2rem;
+    width: 1000px;
+    height:700px;
+    margin:2em;
+
+}
+
+ @media only screen and (max-width: 598px) {
+    /* For mobile phones: **/
+    iframe {
+      width: 100%;
+      height: 320px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    /* For mobile phones: **/
+    iframe{
+        width: 100%;
+        height: 320px;
+
+    }
+  }
+h4{
+    color: #565656;
+    margin-bottom: 1rem;
+}
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    
+}
+ li{
+    text-decoration: none;
+    list-style: none;
+}
+.l2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+
+}
+.l3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+
+}
+/**
+.form{
+    display: flex;
+    justify-content:end;
+    margin-left: 15rem;
+    
+}
+/****
+.row{
+    margin-left: 15rem;
+}
+input{
+    background-color: black;
+}
+.btn1{
+    display: inline-flex;
+}
