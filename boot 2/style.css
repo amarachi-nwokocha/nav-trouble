@@ -1,22 +1,163 @@
-* {
-  padding: 0rem;
-  margin: 0rem;
-  box-sizing: border-box;
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
 }
-body {
-  font-family: "MillerDisplay, Light , sans-serif";
-  background-color: #000000;
-  color: white;
+body{
+    font-family: "MillerDisplay, Light , sans-serif";
+    background-color: #000000;
+    color: white;
 }
-nav {
-  background-color: #000000 !important;
+.nav-brang img{
+    width: 15px !important;
+    height: 20px !important;
 }
-li,
-a {
-  color: white !important;
+.navb{
+    background-color: black !important;
+    display: flex;
+    padding: 0px;
+    font-size:1.5em;
+    padding-bottom: 0rem;
+    font-family: "Maison Neue, sans-serif";
 }
-#yellow-link {
-  background-color: orange;
-  color: #000000;
-  margin-top: 0px;
+nav{
+    font-family: "Maison Neue, sans-serif";
+    border-bottom: 1px solid #565656 ;
+    height: auto;
+    background-color: black !important;
 }
+nav li:hover{
+    border-bottom: 1px solid white;
+}
+.button {
+    background-color: yellow;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 5rem;
+    margin-left: 5px;
+  }
+  button:hover{
+      background-color: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;
+        height: 50rem;
+        width: 50rem;
+}
+    .side{
+        background-image: url(pic1.jpeg);
+        height:1000rem;
+        width:200rem;
+        background-repeat: no-repeat;
+    }
+  
+.white{
+    color: white;
+}
+h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    
+}
+@media only screen and (max-width: 598px) {
+    /* For mobile phones: **/
+    h1{
+     font-size: 3rem;
+
+    }
+}
+  
+.text{
+    font-size: 2rem;
+    margin-left: 2rem ;
+    font-weight: lighter;
+}
+span{
+    color: yellow;
+}
+span:hover{
+    border-bottom:1px solid yellow;
+}
+iframe{
+    border: 1px solid #565656;
+    padding: 2rem;
+    width: 100%;
+    height:700px;
+    margin:2em;
+
+}
+
+ @media only screen and (max-width: 598px) {
+    /* For mobile phones: **/
+    iframe {
+      width: 100%;
+      height: 320px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    /* For mobile phones: **/
+    iframe{
+        width: 100%;
+        height: 320px;
+
+    }
+  }
+h4{
+    color: #565656;
+    margin-bottom: 1rem;
+}
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    
+}
+ li{
+    text-decoration: none;
+    list-style: none;
+}
+.l2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+
+}
+.l3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+
+}
+
+.form{
+    display: flex;
+    justify-content:end;
+    margin-left: 15rem;
+    
+}
+input{
+    background-color: black;
+}
+.btn1{
+    display: inline-flex;
+}
+
